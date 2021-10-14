@@ -1,5 +1,34 @@
+/*nombre de la variable: asigno un valor-se declara variable 
+para darle a los que sean parte de la seccion, en este caso "hero" */
+:root{
+    --fontBase:'Poppins', sans-serif; 
+    --headline2: bold 59px/96px var(var(--fontBase));
+    --headline5: bold24px/39px  'Poppins', sans-serif; /*hace cambios solo a (h/x) que sea seleccionada*/
+    --body1: bold 16px/25px var(var(--fontBase)):
+    /*--purple: #310498;
+    --white:var(var(--body1)); forma de agregar color*/
+}
 body{
-    background-color: aquamarine;
-    font-family: 'Courier New', Courier, monospace;
-    font-family: 'Oswald', sans-serif;
+    background-color: rgb(111, 89, 192);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    color: chocolate;
+}
+
+.hero-content h2 { /*.en html se ve como
+    <section*/
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ( # ) -->selecciona un elemento por id*/
+/*un ( . ) --> selescciona un elemento*/
+
+.hero-content h5{
+    font-size: 40px;
+}
+.hero-content h2{
+    font-size: 36px;  /*tamaño d la fuente*/ 
+    font-family: monospace;  /*tipogrfía- fuente*/
+    font-weight: 100; /*para que se vean delgdas o gruesas las letras */
+    font: var(--headline2)
 }
